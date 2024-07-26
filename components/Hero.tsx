@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React from "react";
+import { Spotlight } from "./ui/Spotlight";
 
 const Hero = () => {
   return (
-    <div className="flex">
+    <div className="flex pt-6 h-screen">
+      <Spotlight/>
       <div className="flex flex-wrap column w-1/2 h-96 align-middle px-10 pt-5">
         <div className="flex flex-wrap content-center">
           <h2 className="text-7xl font-bold">
@@ -46,7 +48,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="w-52 hover:opacity-90">
-          <a href="#">
+          <a href="https://spotdots.es/restaurantes/pazzi-per-la-pizza">
             <Image
               src="/pazzi.png"
               width={208}
