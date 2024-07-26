@@ -18,16 +18,86 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap column w-1/2 h-96 align-middle justify-end px-10 pt-5">
-      <Image 
-        src="/collagehero.png" 
-        width={600} 
-        height={300} 
-        layout="responsive" 
-        objectFit="cover" 
-        quality={100} 
-        alt="Collage con Proyectos" 
-      />
+      <div className="flex flex-wrap column w-1/2 h-96 align-middle justify-end px-10 pt-5 gap-5">
+        <div className="w-52 hover:opacity-90">
+          <a href="https://delivuconnect.com/">
+            <Image
+              src="/delivuconnect.png"
+              width={208}
+              height={208}
+              layout="responsive"
+              objectFit="cover"
+              quality={100}
+              alt="Collage con Proyectos"
+            />
+          </a>
+        </div>
+        <div className="w-52 hover:opacity-90">
+          <a href="#">
+            <Image
+              src="/mila.png"
+              width={208}
+              height={208}
+              layout="responsive"
+              objectFit="cover"
+              quality={100}
+              alt="Collage con Proyectos"
+            />
+          </a>
+        </div>
+        <div className="w-52 hover:opacity-90">
+          <a href="#">
+            <Image
+              src="/pazzi.png"
+              width={208}
+              height={208}
+              layout="responsive"
+              objectFit="cover"
+              quality={100}
+              alt="Collage con Proyectos"
+            />
+          </a>
+        </div>
+        <div className="w-52 hover:opacity-90">
+          <a href="#">
+            <Image
+              src="/tresiete.png"
+              width={208}
+              height={208}
+              layout="responsive"
+              objectFit="cover"
+              quality={100}
+              alt="Collage con Proyectos"
+            />
+          </a>
+        </div>
+
+        <div className="w-52 hover:opacity-90">
+          <a href="#">
+            <Image
+              src="/asystem.png"
+              width={208}
+              height={208}
+              layout="responsive"
+              objectFit="cover"
+              quality={100}
+              alt="Collage con Proyectos"
+            />
+          </a>
+        </div>
+        <div className="w-52 hover:opacity-90">
+          <a href="#">
+            <Image
+              src="/eazy.png"
+              width={208}
+              height={208}
+              layout="responsive"
+              objectFit="cover"
+              quality={100}
+              alt="Collage con Proyectos"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
