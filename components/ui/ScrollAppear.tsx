@@ -1,19 +1,27 @@
-import React from 'react'
+import React from "react";
 import { motion } from "framer-motion";
 
-const ScrollAppear = () => {
-  return (
-    
-    <motion.div
-    variants={{
-      hidden: { opacity: 0, y: 75 },
-      visible: { opacity: 1, y: 0 },
-    }}
-      initial="hidden"
-      animate="visible"
-      className="absolute bg-green w-1/2 h-96"
-    />
-  )
+interface Props {
+  children: React.ReactNode;
+  width?: "fit-content" | "100%";
 }
 
-export default ScrollAppear
+const ScrollAppear = ({
+  children,
+  width = "fit-content",
+}: Props) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 75 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className={`absolute bg-green ${
+        width === "fit-content" ? "w-fit" : "w-full"
+      } h-96`}
+    >
+      {children}
+    </motion.div>
+  );
+};
+
+export default ScrollAppear;
