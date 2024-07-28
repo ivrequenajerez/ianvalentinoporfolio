@@ -5,7 +5,7 @@ import { Spotlight } from "./ui/Spotlight";
 const Hero = () => {
   return (
     <div className="flex pt-6 h-screen">
-      <Spotlight/>
+      <Spotlight />
       <div className="flex flex-wrap column w-1/2 h-96 align-middle px-10 pt-5">
         <div className="flex flex-wrap content-center">
           <h2 className="text-7xl font-bold">

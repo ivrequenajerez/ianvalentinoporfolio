@@ -7,7 +7,7 @@ const MyHeader = () => {
       <div className="inline-flex items-center w-full px-10 pt-5">
         <div className="flex justify-start w-full items-center gap-2">
           <Image src="/logo.png" alt="Logo" width={50} height={50} />
-          <h1 className="font-medium">Ian Requena</h1>
+          <h1 className="font-normal">Ian Valentino</h1>
         </div>
         <div className="flex justify-end w-full">
           <ul className="inline-flex gap-5">
