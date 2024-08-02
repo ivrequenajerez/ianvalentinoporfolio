@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import MyHeader from "@/components/MyHeader";
 import Proyectos from "@/components/Proyectos";
@@ -12,6 +13,7 @@ export default function Home() {
       <SobreMi/>
       <Skills/>
       <Proyectos/>
+      <Footer/>
     </main>
   );
 }
