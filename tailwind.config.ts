@@ -22,6 +22,27 @@ const config: Config = {
       "gray-dark": "#273444",
       gray: "#8492a6",
       "gray-light": "#d3dce6",
+      slate: {
+        100: "#f1f5f9",
+        500: "#64748b",
+      },
+      violet: {
+        500: "#8b5cf6",
+      },
+      purple: {
+        500: "#a855f7",
+      },
+      blue: {
+        500: "#3b82f6",
+      },
+      cyan: {
+        300: "#67e8f9",
+        500: "#06b6d4",
+        600: "#0891b2",
+      },
+      sky: {
+        500: '#0ea5e9',
+      },
     },
     extend: {
       animation: {
