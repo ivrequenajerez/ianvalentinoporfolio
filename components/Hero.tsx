@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-wrap justify-center gap-5 w-full mt-5">
           <div className="w-52 hover:opacity-90">
-            <a href="#">
+            <a href="https://github.com/ivrequenajerez/tresiete">
               <Image
                 src="/tresiete.png"
                 width={208}
@@ -77,7 +77,7 @@ const Hero = () => {
             </a>
           </div>
           <div className="w-52 hover:opacity-90">
-            <a href="#">
+            <a href="https://asystem.es/">
               <Image
                 src="/asystem.png"
                 width={208}
@@ -90,7 +90,7 @@ const Hero = () => {
             </a>
           </div>
           <div className="w-52 hover:opacity-90">
-            <a href="#">
+            <a href="https://github.com/ivrequenajerez/eazychef">
               <Image
                 src="/eazy.png"
                 width={208}
