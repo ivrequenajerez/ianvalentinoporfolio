@@ -11,9 +11,9 @@ const MyHeader = () => {
         </div>
         <div className="flex justify-end w-full">
           <ul className="inline-flex gap-5">
-            <li className="hover:text-gray-light"><a href="#">Mi Objetivo</a></li>
-            <li className="hover:text-gray-light"><a href="#">Mis Proyectos</a></li>
-            <li className="hover:text-gray-light"><a href="#">Contacto</a></li>
+            <li className="hover:text-gray-light"><a href="#sobremi">Mi Objetivo</a></li>
+            <li className="hover:text-gray-light"><a href="#proyectos">Mis Proyectos</a></li>
+            <li className="hover:text-gray-light"><a href="#contacto">Contacto</a></li>
           </ul>
         </div>
       </div>
