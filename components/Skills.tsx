@@ -4,7 +4,7 @@ import { PinContainer } from "./ui/3d-pin";
 const Skills: React.FC = () => {
   return (
     <section id="sobremi">
-      <div className="h-[40rem] w-full flex items-center justify-center">
+      <div className="lg:h-[40rem] w-full flex flex-wrap gap-20 pb-32 lg:pb-0 lg:gap-0 lg:flex-nowrap lg:items-center justify-center">
         <PinContainer
           title="Html, CSS, JavaScript, TypeScript"
           href="https://github.com/ivrequenajerez"
@@ -30,7 +30,7 @@ const Skills: React.FC = () => {
             </h3>
             <div className="text-base !m-0 !p-0 font-normal">
               <span className="text-slate-500">
-                Brindo a las empresas actuales a actualizarse digitalizando sus negocios, facilitando así el desarrollo de
+                Brindo a las empresas actuales herramientas para dar la oportunidad a actualizarse digitalizando sus negocios, facilitando así el desarrollo de
                 sus actividades, procesos, etc.
               </span>
             </div>
