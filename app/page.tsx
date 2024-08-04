@@ -1,12 +1,19 @@
-import MyHeader from '../components/MyHeader'
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import MyHeader from "@/components/MyHeader";
+import Proyectos from "@/components/Proyectos";
+import Skills from "@/components/Skills";
+import SobreMi from "@/components/SobreMi";
 
 export default function Home() {
   return (
     <main>
       <MyHeader />
-      <div>
-        Hola! Este es el Porfolio de Ian Requena
-      </div>
+      <Hero/>
+      <SobreMi/>
+      <Skills/>
+      <Proyectos/>
+      <Footer/>
     </main>
-  )
+  );
 }
