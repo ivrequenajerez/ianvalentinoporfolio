@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mi Portafolio
 
-## Getting Started
+Bienvenido a mi portafolio, desarrollado con pasión y dedicación utilizando [Next.js](https://nextjs.org/). Este proyecto ha sido creado desde cero con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run the development server:
+## Introducción
+
+Soy Ian, un desarrollador de aplicaciones plataforma con una sólida experiencia en branding y desarrollo web. Mi objetivo es ofrecer soluciones innovadoras y de alta calidad que impulsen el crecimiento de las empresas. Este portafolio es una muestra de mis habilidades y mi capacidad para crear proyectos de alta complejidad y rendimiento.
+
+## Empezando
+
+Para iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
+# o
 pnpm dev
-# or
+# o
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Puedes empezar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que editas el archivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
 
-## Learn More
+## Información Adicional
 
-To learn more about Next.js, take a look at the following resources:
+Para conocer más sobre Next.js, consulta los siguientes recursos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Documentación de Next.js](https://nextjs.org/docs) - Aprende sobre las características y la API de Next.js.
+- [Aprende Next.js](https://nextjs.org/learn) - Un tutorial interactivo de Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Puedes visitar el [repositorio de GitHub de Next.js](https://github.com/vercel/next.js/) - Tus comentarios y contribuciones son bienvenidos.
 
-## Deploy on Vercel
+## Despliegue en Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+La forma más sencilla de desplegar tu aplicación de Next.js es utilizar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Consulta nuestra [documentación sobre despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
+
+---
+
+## Por Qué Elegirme
+
+- **Experiencia:** He trabajado con múltiples tecnologías y plataformas, siempre buscando la excelencia.
+- **Innovación:** Siempre estoy al tanto de las últimas tendencias y mejores prácticas en desarrollo web.
+- **Compromiso:** Mi prioridad es entregar proyectos que superen las expectativas y aporten valor real a los clientes.
+
+Si estás buscando a alguien apasionado, creativo y con habilidades comprobadas para llevar tu proyecto al siguiente nivel, ¡estás en el lugar correcto!
