@@ -4,9 +4,9 @@ import { Spotlight } from "./ui/Spotlight";
 
 const Hero = () => {
   return (
-    <div className="flex pt-6 h-screen">
+    <div className="flex pt-6 h-screen w-full">
       <Spotlight />
-      <div className="flex flex-wrap column w-1/2 h-96 align-middle px-10 pt-5">
+      <div className="flex flex-wrap w-1/2 h-96 align-middle px-10 pt-5">
         <div className="flex flex-wrap content-center">
           <h2 className="text-7xl font-bold">
             Desarrollador de Aplicaciones Multiplataforma
@@ -20,85 +20,88 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap column w-1/2 h-96 align-middle justify-end px-10 pt-5 gap-5">
-        <div className="w-52 hover:opacity-90">
-          <a href="https://delivuconnect.com/">
-            <Image
-              src="/delivuconnect.png"
-              width={208}
-              height={208}
-              layout="responsive"
-              objectFit="cover"
-              quality={100}
-              alt="Collage con Proyectos"
-            />
-          </a>
+      <div className="flex flex-wrap w-1/2 h-96 align-middle justify-end px-10 pt-5 gap-5">
+        <div className="flex flex-wrap justify-center gap-5 w-full">
+          <div className="w-52 hover:opacity-90">
+            <a href="https://delivuconnect.com/">
+              <Image
+                src="/delivuconnect.png"
+                width={208}
+                height={208}
+                layout="responsive"
+                objectFit="cover"
+                quality={100}
+                alt="Collage con Proyectos"
+              />
+            </a>
+          </div>
+          <div className="w-52 hover:opacity-90">
+            <a href="#">
+              <Image
+                src="/mila.png"
+                width={208}
+                height={208}
+                layout="responsive"
+                objectFit="cover"
+                quality={100}
+                alt="Collage con Proyectos"
+              />
+            </a>
+          </div>
+          <div className="w-52 hover:opacity-90">
+            <a href="https://spotdots.es/restaurantes/pazzi-per-la-pizza">
+              <Image
+                src="/pazzi.png"
+                width={208}
+                height={208}
+                layout="responsive"
+                objectFit="cover"
+                quality={100}
+                alt="Collage con Proyectos"
+              />
+            </a>
+          </div>
         </div>
-        <div className="w-52 hover:opacity-90">
-          <a href="#">
-            <Image
-              src="/mila.png"
-              width={208}
-              height={208}
-              layout="responsive"
-              objectFit="cover"
-              quality={100}
-              alt="Collage con Proyectos"
-            />
-          </a>
-        </div>
-        <div className="w-52 hover:opacity-90">
-          <a href="https://spotdots.es/restaurantes/pazzi-per-la-pizza">
-            <Image
-              src="/pazzi.png"
-              width={208}
-              height={208}
-              layout="responsive"
-              objectFit="cover"
-              quality={100}
-              alt="Collage con Proyectos"
-            />
-          </a>
-        </div>
-        <div className="w-52 hover:opacity-90">
-          <a href="#">
-            <Image
-              src="/tresiete.png"
-              width={208}
-              height={208}
-              layout="responsive"
-              objectFit="cover"
-              quality={100}
-              alt="Collage con Proyectos"
-            />
-          </a>
-        </div>
-
-        <div className="w-52 hover:opacity-90">
-          <a href="#">
-            <Image
-              src="/asystem.png"
-              width={208}
-              height={208}
-              layout="responsive"
-              objectFit="cover"
-              quality={100}
-              alt="Collage con Proyectos"
-            />
-          </a>
-        </div>
-        <div className="w-52 hover:opacity-90">
-          <a href="#">
-            <Image
-              src="/eazy.png"
-              width={208}
-              height={208}
-              layout="responsive"
-              objectFit="cover"
-              quality={100}
-              alt="Collage con Proyectos"
-            />
-          </a>
+        <div className="flex flex-wrap justify-center gap-5 w-full mt-5">
+          <div className="w-52 hover:opacity-90">
+            <a href="#">
+              <Image
+                src="/tresiete.png"
+                width={208}
+                height={208}
+                layout="responsive"
+                objectFit="cover"
+                quality={100}
+                alt="Collage con Proyectos"
+              />
+            </a>
+          </div>
+          <div className="w-52 hover:opacity-90">
+            <a href="#">
+              <Image
+                src="/asystem.png"
+                width={208}
+                height={208}
+                layout="responsive"
+                objectFit="cover"
+                quality={100}
+                alt="Collage con Proyectos"
+              />
+            </a>
+          </div>
+          <div className="w-52 hover:opacity-90">
+            <a href="#">
+              <Image
+                src="/eazy.png"
+                width={208}
+                height={208}
+                layout="responsive"
+                objectFit="cover"
+                quality={100}
+                alt="Collage con Proyectos"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
