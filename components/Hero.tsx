@@ -24,39 +24,33 @@ const Hero = () => {
         <div className="flex flex-wrap justify-center gap-5 w-full">
           <div className="w-52 hover:opacity-90">
             <a href="https://delivuconnect.com/">
-              <Image
+              <img
                 src="/delivuconnect.png"
-                width={208}
-                height={208}
-                layout="responsive"
-                objectFit="cover"
-                quality={100}
+                width="208"
+                height="208"
+                className="object-cover w-full h-auto"
                 alt="Collage con Proyectos"
               />
             </a>
           </div>
           <div className="w-52 hover:opacity-90">
             <a href="#">
-              <Image
+              <img
                 src="/mila.png"
-                width={208}
-                height={208}
-                layout="responsive"
-                objectFit="cover"
-                quality={100}
+                width="208"
+                height="208"
+                className="object-cover w-full h-auto"
                 alt="Collage con Proyectos"
               />
             </a>
           </div>
           <div className="w-52 hover:opacity-90">
             <a href="https://spotdots.es/restaurantes/pazzi-per-la-pizza">
-              <Image
+              <img
                 src="/pazzi.png"
-                width={208}
-                height={208}
-                layout="responsive"
-                objectFit="cover"
-                quality={100}
+                width="208"
+                height="208"
+                className="object-cover w-full h-auto"
                 alt="Collage con Proyectos"
               />
             </a>
@@ -65,39 +59,33 @@ const Hero = () => {
         <div className="flex flex-wrap justify-center gap-5 w-full mt-5">
           <div className="w-52 hover:opacity-90">
             <a href="https://github.com/ivrequenajerez/tresiete">
-              <Image
+              <img
                 src="/tresiete.png"
-                width={208}
-                height={208}
-                layout="responsive"
-                objectFit="cover"
-                quality={100}
+                width="208"
+                height="208"
+                className="object-cover w-full h-auto"
                 alt="Collage con Proyectos"
               />
             </a>
           </div>
           <div className="w-52 hover:opacity-90">
             <a href="https://asystem.es/">
-              <Image
+              <img
                 src="/asystem.png"
-                width={208}
-                height={208}
-                layout="responsive"
-                objectFit="cover"
-                quality={100}
+                width="208"
+                height="208"
+                className="object-cover w-full h-auto"
                 alt="Collage con Proyectos"
               />
             </a>
           </div>
           <div className="w-52 hover:opacity-90">
             <a href="https://github.com/ivrequenajerez/eazychef">
-              <Image
+              <img
                 src="/eazy.png"
-                width={208}
-                height={208}
-                layout="responsive"
-                objectFit="cover"
-                quality={100}
+                width="208"
+                height="208"
+                className="object-cover w-full h-auto"
                 alt="Collage con Proyectos"
               />
             </a>

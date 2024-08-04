@@ -10,7 +10,12 @@ const MyHeader = () => {
       <nav className="bg-black border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <div className="flex items-center">
-            <Image src="/logo.png" alt="Logo" width={50} height={50} />
+            <img
+                src="/logo.png"
+                width="50"
+                height="50"
+                alt="Logo Ian Valentino"
+              />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Ian Valentino
             </span>
