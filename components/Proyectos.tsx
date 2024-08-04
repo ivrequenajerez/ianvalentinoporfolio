@@ -1,121 +1,148 @@
 "use client";
 import React from "react";
-import { GlareCard } from "./ui/glare-card";
+import { CardSpotlight } from "@/components/ui/card-spotlight";
 
 const Proyectos = () => {
   return (
     <section id="proyectos">
       <div className="flex flex-col items-center justify-center px-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <GlareCard className="flex flex-col items-center justify-center">
-            <GlareCard className="relative flex flex-col items-center justify-center">
-              <img
-                className="h-full w-full absolute inset-0 object-cover"
-                src="/tresiete.png"
-              />
-              <div className="h-full w-full absolute inset-0 bg-black opacity-80"></div>
-              <div className="flex flex-col items-start justify-end py-8 px-6 z-10">
-                <p className="font-bold text-white text-lg">
-                  TreSiete: Sitio Web para Cafetería
-                </p>
-                <p className="font-normal text-base text-neutral-200 mt-4">
-                  Sitio Web interactivo, con animaciones avanzadas y Carrito de
-                  Compras. Next.js, TailWind, JavaScript.
-                </p>
-              </div>
-            </GlareCard>
-          </GlareCard>
-          <GlareCard className="flex flex-col items-center justify-center">
-            <GlareCard className="relative flex flex-col items-center justify-center">
-              <img
-                className="h-full w-full absolute inset-0 object-cover"
-                src="/eazy.png"
-              />
-              <div className="h-full w-full absolute inset-0 bg-black opacity-80"></div>
-              <div className="flex flex-col items-start justify-end py-8 px-6 z-10">
-                <p className="font-bold text-white text-lg">EazyChef</p>
-                <p className="font-normal text-base text-neutral-200 mt-4">
-                  Aplicación multiplataforma para gestión de almacén de un
-                  restaurante. React Native, NativeWind, TailWind, NoSQL, Expo, JavaScript.
-                </p>
-              </div>
-            </GlareCard>
-          </GlareCard>
-          <GlareCard className="flex flex-col items-center justify-center">
-            <GlareCard className="relative flex flex-col items-center justify-center">
-              <img
-                className="h-full w-full absolute inset-0 object-cover"
-                src="/mila.png"
-              />
-              <div className="h-full w-full absolute inset-0 bg-black opacity-80"></div>
-              <div className="flex flex-col items-start justify-end py-8 px-6 z-10">
-                <p className="font-bold text-white text-lg">
-                  Mila Peluquería Unisex
-                </p>
-                <p className="font-normal text-base text-neutral-200 mt-4">
-                  Sitio Web personalizado para hacer reservas en Centro de
-                  Belleza. CMS WordPress, PHP, Html, CSS.
-                </p>
-              </div>
-            </GlareCard>
-          </GlareCard>
-          <GlareCard className="flex flex-col items-center justify-center">
-            <GlareCard className="relative flex flex-col items-center justify-center">
-              <img
-                className="h-full w-full absolute inset-0 object-cover"
-                src="/asystem.png"
-              />
-              <div className="h-full w-full absolute inset-0 bg-black opacity-80"></div>
-              <div className="flex flex-col items-start justify-end py-8 px-6 z-10">
-                <p className="font-bold text-white text-lg">
-                  Asystem: Webs y Diseño Gráfico
-                </p>
-                <p className="font-normal text-base text-neutral-200 mt-4">
-                  Sitio Web personalizado, diseños modernos e implementación de
-                  funcionalidades complejas. CMS WordPress, PHP, Html, CSS.
-                </p>
-              </div>
-            </GlareCard>
-          </GlareCard>
-          <GlareCard className="flex flex-col items-center justify-center">
-            <GlareCard className="relative flex flex-col items-center justify-center">
-              <img
-                className="h-full w-full absolute inset-0 object-cover"
-                src="/delivuconnect.png"
-              />
-              <div className="h-full w-full absolute inset-0 bg-black opacity-80"></div>
-              <div className="flex flex-col items-start justify-end py-8 px-6 z-10">
-                <p className="font-bold text-white text-lg">
-                  Delivuconnect: Directorio Empresarial
-                </p>
-                <p className="font-normal text-base text-neutral-200 mt-4">
-                  Directorio web con empresas de diversos sectores. Buscador
-                  personalizado. CMS WordPress, PHP, Html, CSS.
-                </p>
-              </div>
-            </GlareCard>
-          </GlareCard>
-          <GlareCard className="flex flex-col items-center justify-center">
-            <GlareCard className="relative flex flex-col items-center justify-center">
-              <img
-                className="h-full w-full absolute inset-0 object-cover"
-                src="https://images.unsplash.com/photo-1512618831669-521d4b375f5d?q=80&w=3388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              />
+          <CardSpotlight className="h-96 w-96">
+            <p className="text-xl font-bold relative z-20 mt-2 text-white">
+              <a href="https://github.com/ivrequenajerez/tresiete">
+                TreSiete: Sitio Web para Cafetería
+              </a>
+            </p>
+            <div className="text-neutral-200 mt-4 relative z-20">
+              Sitio Web interactivo, con animaciones avanzadas y Carrito de
+              Compras.
+              <ul className="list-none mt-2">
+                <Step title="Next.js" />
+                <Step title="TailWind" />
+                <Step title="JavaScript" />
+              </ul>
+            </div>
+          </CardSpotlight>
 
-              <div className="flex flex-col items-start justify-end py-8 px-6 z-10">
-                <p className="font-bold text-white text-lg">
-                  Pazzi Per La Pizza: Sitio Web
-                </p>
-                <p className="font-normal text-base text-neutral-200 mt-4">
-                  Sitio Web personalizado para hacer reservas y ver Carta en
-                  línea. CMS WordPress, PHP, Html, CSS.
-                </p>
-              </div>
-            </GlareCard>
-          </GlareCard>
+          <CardSpotlight className="h-96 w-96">
+            <p className="text-xl font-bold relative z-20 mt-2 text-white">
+              <a href="https://github.com/ivrequenajerez/eazychef">
+                EazyChef: App Multiplataforma
+              </a>
+            </p>
+            <div className="text-neutral-200 mt-4 relative z-20">
+              Aplicación multiplataforma para gestión de almacén de un
+              restaurante.
+              <ul className="list-none mt-2">
+                <Step title="React Native" />
+                <Step title="NativeWind" />
+                <Step title="TailWind" />
+                <Step title="NoSQL" />
+                <Step title="Expo" />
+                <Step title="JavaScript" />
+              </ul>
+            </div>
+          </CardSpotlight>
+
+          <CardSpotlight className="h-96 w-96">
+            <p className="text-xl font-bold relative z-20 mt-2 text-white">
+              <a href="https://spotdots.es/milapeluqueriaunisex/">
+                Mila Peluquería Unisex
+              </a>
+            </p>
+            <div className="text-neutral-200 mt-4 relative z-20">
+              Sitio Web personalizado para hacer reservas en Centro de Belleza.
+              <ul className="list-none mt-2">
+                <Step title="CMS WordPress" />
+                <Step title="PHP" />
+                <Step title="HTML" />
+                <Step title="CSS" />
+              </ul>
+            </div>
+          </CardSpotlight>
+
+          <CardSpotlight className="h-96 w-96">
+            <p className="text-xl font-bold relative z-20 mt-2 text-white">
+              <a href="https://asystem.es/">Asystem: Webs y Diseño Gráfico</a>
+            </p>
+            <div className="text-neutral-200 mt-4 relative z-20">
+              Sitios Web personalizados, diseños modernos, publicaciones para
+              RRSS e implementación de funcionalidades complejas.
+              <ul className="list-none mt-2">
+                <Step title="CMS WordPress" />
+                <Step title="PHP" />
+                <Step title="HTML" />
+                <Step title="CSS" />
+              </ul>
+            </div>
+          </CardSpotlight>
+
+          <CardSpotlight className="h-96 w-96">
+            <p className="text-xl font-bold relative z-20 mt-2 text-white">
+              <a href="https://delivuconnect.com/">
+                Delivuconnect: Directorio Empresarial
+              </a>
+            </p>
+            <div className="text-neutral-200 mt-4 relative z-20">
+              Directorio web con empresas de diversos sectores. Buscador
+              personalizado.
+              <ul className="list-none mt-2">
+                <Step title="CMS WordPress" />
+                <Step title="PHP" />
+                <Step title="HTML" />
+                <Step title="CSS" />
+              </ul>
+            </div>
+          </CardSpotlight>
+
+          <CardSpotlight className="h-96 w-96">
+            <p className="text-xl font-bold relative z-20 mt-2 text-white">
+              <a href="https://spotdots.es/restaurantes/pazzi-per-la-pizza">
+                Pazzi Per La Pizza: Sitio Web
+              </a>
+            </p>
+            <div className="text-neutral-200 mt-4 relative z-20">
+              Sitio Web personalizado para hacer reservas y ver Carta en línea.
+              <ul className="list-none mt-2">
+                <Step title="CMS WordPress" />
+                <Step title="PHP" />
+                <Step title="HTML" />
+                <Step title="CSS" />
+              </ul>
+            </div>
+          </CardSpotlight>
         </div>
       </div>
     </section>
+  );
+};
+
+const Step = ({ title }: { title: string }) => {
+  return (
+    <li className="flex gap-2 items-start">
+      <CheckIcon />
+      <p className="text-white">{title}</p>
+    </li>
+  );
+};
+
+const CheckIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="h-4 w-4 text-blue-500 mt-1 flex-shrink-0"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+        d="M12 2c-.218 0 -.432 .002 -.642 .005l-.616 .017l-.299 .013l-.579 .034l-.553 .046c-4.785 .464 -6.732 2.411 -7.196 7.196l-.046 .553l-.034 .579c-.005 .098 -.01 .198 -.013 .299l-.017 .616l-.004 .318l-.001 .324c0 .218 .002 .432 .005 .642l.017 .616l.013 .299l.034 .579l.046 .553c.464 4.785 2.411 6.732 7.196 7.196l.553 .046l.579 .034c.098 .005 .198 .01 .299 .013l.616 .017l.642 .005l.642 -.005l.616 -.017l.299 -.013l.579 -.034l.553 -.046c4.785 -.464 6.732 -2.411 7.196 -7.196l.046 -.553l.034 -.579c.005 -.098 .01 -.198 .013 -.299l.017 -.616l.005 -.642l-.005 -.642l-.017 -.616l-.013 -.299l-.034 -.579l-.046 -.553c-.464 -4.785 -2.411 -6.732 -7.196 -7.196l-.553 -.046l-.579 -.034a28.058 28.058 0 0 0 -.299 -.013l-.616 -.017l-.318 -.004l-.324 -.001zm2.293 7.293a1 1 0 0 1 1.497 1.32l-.083 .094l-4 4a1 1 0 0 1 -1.32 .083l-.094 -.083l-2 -2a1 1 0 0 1 1.32 -1.497l.094 .083l1.293 1.292l3.293 -3.292z"
+        fill="currentColor"
+        strokeWidth="0"
+      />
+    </svg>
   );
 };
 
