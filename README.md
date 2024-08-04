@@ -6,6 +6,14 @@ Bienvenido a mi portafolio, desarrollado con pasión y dedicación utilizando [N
 
 Soy Ian, un desarrollador de aplicaciones plataforma con una sólida experiencia en branding y desarrollo web. Mi objetivo es ofrecer soluciones innovadoras y de alta calidad que impulsen el crecimiento de las empresas. Este portafolio es una muestra de mis habilidades y mi capacidad para crear proyectos de alta complejidad y rendimiento.
 
+## Características del Proyecto
+
+- **Framework:** [Next.js](https://nextjs.org/) v14.2.5
+- **Lenguaje:** [TypeScript](https://www.typescriptlang.org/) v5
+- **Estilo:** [Tailwind CSS](https://tailwindcss.com/) v3.4.1
+- **Animaciones:** [Framer Motion](https://www.framer.com/motion/) v12.0.0-alpha.0
+- **3D Graphics:** [Three.js](https://threejs.org/) v0.167.1 con [@react-three/fiber](https://github.com/pmndrs/react-three-fiber) v8.16.8
+
 ## Empezando
 
 Para iniciar el servidor de desarrollo:
@@ -41,7 +49,31 @@ La forma más sencilla de desplegar tu aplicación de Next.js es utilizar la [Pl
 
 Consulta nuestra [documentación sobre despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
 
----
+## Detalles Técnicos
+
+### Dependencias Principales
+
+- `@react-three/fiber`: ^8.16.8
+- `clsx`: ^2.1.1
+- `framer-motion`: ^12.0.0-alpha.0
+- `mini-svg-data-uri`: ^1.4.4
+- `next`: 14.2.5
+- `react`: ^18
+- `react-dom`: ^18
+- `tailwind-merge`: ^2.4.0
+- `three`: ^0.167.1
+
+### Dependencias de Desarrollo
+
+- `@types/node`: ^20
+- `@types/react`: ^18
+- `@types/react-dom`: ^18
+- `@types/three`: ^0.167.1
+- `eslint`: ^8
+- `eslint-config-next`: 14.2.5
+- `postcss`: ^8
+- `tailwindcss`: ^3.4.1
+- `typescript`: ^5
 
 ## Por Qué Elegirme
 
