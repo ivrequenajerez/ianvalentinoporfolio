@@ -5,7 +5,7 @@ import { CardSpotlight } from "@/components/ui/card-spotlight";
 const Proyectos = () => {
   return (
     <section id="proyectos">
-      <div className="flex flex-col items-center justify-center px-10">
+      <div className="flex flex-col items-center justify-center px-10 dark:bg-black bg-slate-100">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <CardSpotlight className="h-96 w-96">
             <p className="text-xl font-bold relative z-20 mt-2 text-white">
@@ -13,7 +13,7 @@ const Proyectos = () => {
                 TreSiete: Sitio Web para Cafetería
               </a>
             </p>
-            <div className="text-neutral-200 mt-4 relative z-20">
+            <div className="text-white dark:text-white dark:text-neutral-200 mt-4 relative z-20">
               Sitio Web interactivo, con animaciones avanzadas y Carrito de
               Compras.
               <ul className="list-none mt-2">
@@ -30,7 +30,7 @@ const Proyectos = () => {
                 EazyChef: App Multiplataforma
               </a>
             </p>
-            <div className="text-neutral-200 mt-4 relative z-20">
+            <div className="text-white dark:text-neutral-200 mt-4 relative z-20">
               Aplicación multiplataforma para gestión de almacén de un
               restaurante.
               <ul className="list-none mt-2">
@@ -50,7 +50,7 @@ const Proyectos = () => {
                 Mila Peluquería Unisex
               </a>
             </p>
-            <div className="text-neutral-200 mt-4 relative z-20">
+            <div className="text-white dark:text-neutral-200 mt-4 relative z-20">
               Sitio Web personalizado para hacer reservas en Centro de Belleza.
               <ul className="list-none mt-2">
                 <Step title="CMS WordPress" />
@@ -65,7 +65,7 @@ const Proyectos = () => {
             <p className="text-xl font-bold relative z-20 mt-2 text-white">
               <a href="https://asystem.es/">Asystem: Webs y Diseño Gráfico</a>
             </p>
-            <div className="text-neutral-200 mt-4 relative z-20">
+            <div className="text-white dark:text-neutral-200 mt-4 relative z-20">
               Sitios Web personalizados, diseños modernos, publicaciones para
               RRSS e implementación de funcionalidades complejas.
               <ul className="list-none mt-2">
@@ -83,7 +83,7 @@ const Proyectos = () => {
                 Delivuconnect: Directorio Empresarial
               </a>
             </p>
-            <div className="text-neutral-200 mt-4 relative z-20">
+            <div className="text-white dark:text-neutral-200 mt-4 relative z-20">
               Directorio web con empresas de diversos sectores. Buscador
               personalizado.
               <ul className="list-none mt-2">
@@ -101,7 +101,7 @@ const Proyectos = () => {
                 Pazzi Per La Pizza: Sitio Web
               </a>
             </p>
-            <div className="text-neutral-200 mt-4 relative z-20">
+            <div className="text-white dark:text-neutral-200 mt-4 relative z-20">
               Sitio Web personalizado para hacer reservas y ver Carta en línea.
               <ul className="list-none mt-2">
                 <Step title="CMS WordPress" />

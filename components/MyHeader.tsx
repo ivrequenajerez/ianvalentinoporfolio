@@ -17,7 +17,7 @@ const MyHeader = () => {
               height="50"
               alt="Logo Ian Valentino"
             />
-            <span className="self-center text-base font-normal whitespace-nowrap text-white">
+            <span className="self-center text-base font-normal whitespace-nowrap dark:text-white text-black">
               Ian Valentino
             </span>
           </div>
@@ -25,7 +25,7 @@ const MyHeader = () => {
             <button
               data-collapse-toggle="mobile-menu"
               type="button"
-              className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400  focus:ring-gray-600"
+              className="inline-flex text-white items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400  focus:ring-gray-600"
               aria-controls="mobile-menu"
               aria-expanded={menuOpen ? "true" : "false"}
               onClick={() => setMenuOpen(!menuOpen)}
