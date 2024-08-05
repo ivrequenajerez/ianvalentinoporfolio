@@ -42,8 +42,8 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Descargar CV
+              <a href="https://ianvalentino.com/Ian%20Requena%20CV%20(1).pdf" className="hover:underline me-4 md:me-6">
+                Mi Curriculum
               </a>
             </li>
           </ul>
