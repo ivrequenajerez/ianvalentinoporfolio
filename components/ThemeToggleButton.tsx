@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 
 const ThemeToggleButton = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     const root = document.documentElement;
-    console.log("isDarkMode:", isDarkMode); // Añade esto
     if (isDarkMode) {
       root.classList.add("dark");
     } else {
@@ -14,16 +14,38 @@ const ThemeToggleButton = () => {
   }, [isDarkMode]);
 
   const handleClick = () => {
-    console.log("Button clicked"); // Añade esto
     setIsDarkMode(!isDarkMode);
   };
 
   return (
     <button
       onClick={handleClick}
-      className="w-16 h-16 border border-white text-white flex items-center justify-center"
+      className="relative w-16 h-16 flex items-center justify-center bg-transparent overflow-hidden"
     >
-      {isDarkMode ? "DR" : "LG"}
+      <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
+        <Image
+          src="/light.png"
+          alt="Light Mode"
+          width={32}
+          height={32}
+          style={{
+            opacity: isDarkMode ? 0 : 1,
+            transition: 'opacity 0.3s ease',
+            filter: 'invert(1)'
+          }}
+        />
+        <Image
+          src="/dark.png"
+          alt="Dark Mode"
+          width={32}
+          height={32}
+          style={{
+            opacity: isDarkMode ? 1 : 0,
+            transition: 'opacity 0.3s ease',
+            filter: 'invert(1)'
+          }}
+        />
+      </div>
     </button>
   );
 };
