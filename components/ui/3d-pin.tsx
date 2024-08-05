@@ -54,15 +54,15 @@ export const PinContainer: React.FC<PinContainerProps> = ({
       >
         <div
           style={{ transform }}
-          className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-black border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
+          className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] dark:bg-black border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
         >
           <div className={cn("relative z-50", className)}>
-            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
-              <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
+            <div className="flex basis-full flex-col p-4 tracking-tight dark:text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem]">
+              <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-black dark:text-slate-100">
                 {children}
               </h3>
               <div className="text-base !m-0 !p-0 font-normal">
-                <span className="text-slate-500">
+                <span className="text-black dark:text-slate-500">
                   {children}
                 </span>
               </div>
@@ -93,7 +93,7 @@ export const PinPerspective: React.FC<PinPerspectiveProps> = ({ title, href }) =
               target={"_blank"}
               className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-slate-500"
             >
-              <span className="relative z-20 text-white text-xs font-bold inline-block py-0.5">
+              <span className="relative z-20 text-black dark:text-white text-xs font-bold inline-block py-0.5">
                 {title}
               </span>
               <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover/btn:opacity-40"></span>
