@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 
 const ThemeToggleButton = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true); // Inicializamos en modo oscuro
 
   useEffect(() => {
     const root = document.documentElement;
@@ -23,7 +22,7 @@ const ThemeToggleButton = () => {
       className="relative w-16 h-16 flex items-center justify-center bg-transparent overflow-hidden"
     >
       <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
-        <Image
+        <img
           src="/light.png"
           alt="Light Mode"
           width={32}
@@ -34,7 +33,7 @@ const ThemeToggleButton = () => {
             filter: 'invert(1)'
           }}
         />
-        <Image
+        <img
           src="/dark.png"
           alt="Dark Mode"
           width={32}
