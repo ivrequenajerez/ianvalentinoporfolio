@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
 const ThemeToggleButton = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true); // Inicializamos en modo oscuro
 
   useEffect(() => {
     const root = document.documentElement;
