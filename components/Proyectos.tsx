@@ -19,7 +19,7 @@ const Proyectos = () => {
               <ul className="list-none mt-2">
                 <Step title="Next.js" />
                 <Step title="TailWind" />
-                <Step title="JavaScript" />
+                <Step title="TypeScript" />
               </ul>
             </div>
           </CardSpotlight>
@@ -36,7 +36,6 @@ const Proyectos = () => {
               <ul className="list-none mt-2">
                 <Step title="React Native" />
                 <Step title="NativeWind" />
-                <Step title="TailWind" />
                 <Step title="NoSQL" />
                 <Step title="Expo" />
                 <Step title="JavaScript" />
